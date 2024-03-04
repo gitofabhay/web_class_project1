@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-       button{
-        background-color: red;
-        color:white;
-        height: 36px;
-        width:105px;
-        border-radius: 2px;
-        cursor:pointer;
-        border-color: red;
-        border-style:dotted;
-        border-width: 10px;
-       } 
-    </style>
 </head>
+<style>
+    .menubar{
+        border: 2px solid;
+        border-color: aquamarine;
+        background-color: black;
+        display: flex;
+        gap: 30px;
+        justify-content: end;
+        text-decoration: none;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    div>button:hover{
+        background-color:palegreen;
+        cursor: pointer;
+    }
+    div>button{
+font-size: 20px;
+width: 200px;
+background-color:black;
+border: none;
+text-decoration: none;
+    }
+
+</style>
 <body>
-    <button> subscribe</button>
+    <div class="menubar">
+        <button> <a href="#"> HOME</a></button>
+        <button> <a href="#"> ABOUT US</a></button>
+        <button> <a href="#"> CONTACT US</a></button>
+    </div>
 </body>
-</html>                                                              
+</html>
